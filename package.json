@@ -1,0 +1,24 @@
+{
+  "name": "node-pmta",
+  "version": "1.0.0",
+  "description": "node-pmta is an api for Port25 PMTA that takes advantage of the mailmerge option",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/0x4139/node-pmta"
+  },
+  "keywords": [
+    "pmta",
+    "port25",
+    "nodejs",
+    "api"
+  ],
+  "author": "0x4139@gmail.com",
+  "license": "API",
+  "devDependencies": {
+    "jest-cli": "^0.4.18"
+  }
+}
