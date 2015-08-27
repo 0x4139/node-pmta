@@ -20,5 +20,4 @@ var recipient = new PMTA.Recipient('kodeslacker@yahoo.com');
 
 recipient.defineVariable('fname', 'CacaMaca');
 message.addRecipient(recipient);
-
-connection.submit(message);
+        connection.submit(message);
