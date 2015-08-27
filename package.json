@@ -17,11 +17,11 @@
     "api"
   ],
   "author": "0x4139@gmail.com",
-  "license": "API",
+  "license": "MIT",
   "devDependencies": {
     "jest-cli": "^0.4.18"
   },
   "dependencies": {
-    "c-net": "^1.0.0"
+    "c-net": "^1.0.1"
   }
 }

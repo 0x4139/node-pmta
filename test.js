@@ -1,4 +1,5 @@
 'use strict';
+
 var PMTA = require('./lib/PMTA');
 
 var payload = [
@@ -12,15 +13,17 @@ var payload = [
     "This is a message, [fname]"
 ].join("\n");
 
+
+
+
+
+
 var message = new PMTA.Message('test@nasa.com');
 message.setPayload(payload);
 
-var connection = new PMTA.Connection('77.36.17.64', 2525);
 var recipient = new PMTA.Recipient('kodeslacker@yahoo.com');
-
-recipient.defineVariable('fname', 'FnameWasSet');
+recipient.defineVariable('fname','FnameWasSet');
 message.addRecipient(recipient);
+var connection = new PMTA.Connection('188.166.66.108',25);
 
 connection.submit(message);
-
-console.log(message.serialize());
