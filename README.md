@@ -18,11 +18,6 @@ var payload = [
     "This is a message, [fname]"
 ].join("\n");
 
-
-
-
-
-
 var message = new PMTA.Message('test@testdomain.com');
 message.setPayload(payload);
 
@@ -33,3 +28,6 @@ var connection = new PMTA.Connection('localhost',25);
 
 connection.submit(message);
 ```
+
+#License 
+MIT @Vali Malinoiu 2015
